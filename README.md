@@ -21,7 +21,7 @@ npm install
 |       |--- tpl // 页面模板
 |       |       |--- page1.html
 |       |       |--- page2.html
-|       |--- views // 添加css、js后的页面模板
+|       |--- html // 添加css、js后的页面模板
 |               |--- page1.html
 |               |--- page2.html
 |--- src // 页面css、js
@@ -75,9 +75,7 @@ import common from 'src/common' // 引入common模块
 ## 示例
 
 * [使用externals](./src/page1/main.js)
-* [使用公共模块](./src/page2/main.js)
-* [使用ProvidePlugin](./src/page3/main.js)
-* [使用webpack-dev-server的代理](./src/page4/main.js)
+
 
 ## tips
 
