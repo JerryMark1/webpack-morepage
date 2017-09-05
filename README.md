@@ -6,8 +6,8 @@
 ## 使用
 
 ```shell
-git clone git@github.com:fe-config/generate-pages.git 
-cd generate-pages
+git clone git@github.com:JerryMark1/webpack-morepage.git 
+cd webpack-morepage
 npm install
 ```
 

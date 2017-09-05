@@ -79,6 +79,7 @@ module.exports = {
 		}),
 		new webpack.optimize.CommonsChunkPlugin('vendor','vendor.js'),
 		new ExtractTextPlugin('[name].css'),
+		//使用 ProvidePlugin 就不用 import $ from 'jquery'
 		new webpack.ProvidePlugin({
 			$: 'jquery'
 		})
